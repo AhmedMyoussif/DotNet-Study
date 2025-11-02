@@ -1,0 +1,13 @@
+@baseurl = http://localhost:5062 
+
+### 
+GET {{baseurl}}
+
+
+### Valid 
+GET  {{baseurl}}/
+X-Auth-Token: 12345
+
+### InValid 
+GET  {{baseurl}}/
+X-Auth-Token: 12454888
