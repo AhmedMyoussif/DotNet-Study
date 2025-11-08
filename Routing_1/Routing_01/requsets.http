@@ -1,0 +1,22 @@
+@baseurl = http://localhost:5120
+
+
+### 
+GET {{baseurl}}
+
+### 
+GET {{baseurl}}/mapget1
+
+### 
+GET {{baseurl}}/mapget2 
+
+### 
+GET {{baseurl}}/mapget3
+
+
+###
+GET {{baseurl}}/products/all
+
+
+###
+GET {{baseurl}}/route-table
