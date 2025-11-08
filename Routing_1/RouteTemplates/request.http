@@ -1,0 +1,20 @@
+@baseUrl = http://localhost:5160 
+
+### 
+GET {{baseUrl}}/product/1
+
+
+### 
+{{baseUrl}}/date/2025-12-3
+
+###
+GET {{baseUrl}}
+
+### 
+GET {{baseUrl}}/products 
+
+### 
+GET {{baseUrl}}/users/1 
+
+### 
+GET {{baseUrl}}/users  
